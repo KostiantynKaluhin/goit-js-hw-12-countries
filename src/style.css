@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  color: rgb(6, 3, 27);
+  background: rgb(158, 190, 169);
+}
+h1 {
+  color: black;
+}
+.countryInput {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 35px;
+  width: 50%;
+}
+
+.wrapper--flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  padding: 1em;
+}
+
+.description {
+  margin-right: 40px;
+}
+
+.card-name {
+  text-align: start;
+}
+.countries-list:hover {
+  cursor: pointer;
+}
+.countries-item:hover {
+  color: bisque;
+}
